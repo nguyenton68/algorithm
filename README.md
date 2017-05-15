@@ -8,3 +8,8 @@ The key is divide the array into left and right array, and find the right positi
 They key is divide the array evenly into 2. Then keep dividing until there is 1 element left.
 Then the merge will merge 2 arrays into big array by comparing each element in two subarray.
 Then put the smallest one into main array.
+
+3. heap_sort.cpp: sorting an array
+Sorting using tree. Node i with left and right child.
+Only need to loop n/2. Because there are at least n/2 node.
+max_heap compare the node with its childs. Then swap. Recursively call max_heap for the largest index.
