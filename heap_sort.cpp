@@ -9,7 +9,7 @@
 using namespace std;
 const int SIZE=10;
 void max_heap(int *, int, int);
-void swap(int *, int, int);
+void swap(int &, int &);
 void printArr(int *, int, int);
 void heapsort(int *, int);
 int main()
@@ -39,7 +39,7 @@ void max_heap(int * arr, int start, int arr_len)
     }
 }
 
-void swap(int *arr, int x, int y)
+void swap( int &x, int &y)
 {
   int temp = x;
   x = y;
