@@ -13,3 +13,7 @@ Then put the smallest one into main array.
 Sorting using tree. Node i with left and right child.
 Only need to loop n/2. Because there are at least n/2 node.
 max_heap compare the node with its childs. Then swap. Recursively call max_heap for the largest index.
+
+4. quick_sort_new.cpp: quick sort with shorter version
+This code choose the last element to be pivot.
+Use 2 indices stand for smaller and larger subarray.
