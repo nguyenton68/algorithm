@@ -17,3 +17,9 @@ max_heap compare the node with its childs. Then swap. Recursively call max_heap 
 4. quick_sort_new.cpp: quick sort with shorter version
 This code choose the last element to be pivot.
 Use 2 indices stand for smaller and larger subarray.
+
+5. quick_sort_string.cpp:
+This code is used to check whether 1 string is a permutation of other string.
+Algorithm:
+- Sorted each string. This sort is the same as an int array. Need to change int a[DIM] -> char a[]. And all argument int* -> char *
+- Compare each element in two strings.
